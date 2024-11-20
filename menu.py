@@ -160,11 +160,13 @@ while place_order:
         # 5. Check the customer's input
         if keep_ordering.lower() == "y":
                 # Keep ordering
-                keep_ordering = True
+                keep_ordering == place_order
+                break
                 # Exit the keep ordering question loop
         elif keep_ordering.lower() == "n":
                 # Complete the order
                 keep_ordering = False
+                break
                 # Since the customer decided to stop ordering, thank them for
                 # their order
                 print("Thank you for your order.")
